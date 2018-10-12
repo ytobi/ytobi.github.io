@@ -65,5 +65,19 @@ img.img-circle{ box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,rgba(0,0,0,0.117647
 
 
 
-
-
+.horizontal-line-text {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	margin: 8px 0px;
+}
+.horizontal-line-text::before,
+.horizontal-line-text::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
+}
