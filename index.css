@@ -72,7 +72,8 @@ img.img-circle{ box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,rgba(0,0,0,0.117647
 	margin: 8px 0px;
 }
 .horizontal-line-text::before,
-.horizontal-line-text::after {
+.horizontal-line-text::after 
+{
 	content: "";
 	flex-grow: 1;
 	background: rgba(0, 0, 0, 0.35);
@@ -81,3 +82,54 @@ img.img-circle{ box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,rgba(0,0,0,0.117647
 	line-height: 0px;
 	margin: 0px 8px;
 }
+
+.sidenav 
+{
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+  
+  .sidenav a 
+  {
+    padding: 6px 6px 6px 32px;
+    font-size: inherit;
+    color:#2b669a;
+    display: block;
+  }
+  
+  .sidenav a:hover a:active 
+  {
+    text-decoration: underline;
+  }
+  
+  .main 
+  {
+    margin-right: 50px; /* Same as the width of the sidenav */
+  }
+
+  .rotate 
+  {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  
+    /* Should be unset in IE9+ I think. */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
