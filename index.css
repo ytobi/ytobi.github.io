@@ -1,9 +1,36 @@
+
+.list-group-item
+{
+  background-color: #ececec;
+}
 body
 {
     margin: 0 auto;
     margin-top: 10px;
     font-size: 17px;
+    background-color: #ececec;
+    color: #6d6d6d;
 }
+div ol li
+{
+  background-color: #ececec;
+}
+a
+{
+  color: #6b6b6b;
+  text-decoration: underline;
+}
+a:hover
+{
+  color: #6b6b6b;
+  text-decoration: underline;
+}
+a:visited
+{
+  color: #6b6b6b;
+  text-decoration: underline;
+}
+
 
 #name{margin-top: 10px; margin-bottom: 10px}
 
@@ -15,23 +42,26 @@ body
     border: thick;
     margin-bottom: 10px;
     margin-top: 100px;
+    background-color: #ececec;
 }
 
 .story
 {
     height: 60%;
-    border: thick;
+    border: none;
     margin-top: 10px;
+    background-color: #ececec;
 }
 
 #position{ color: crimson; }
 
 .story-contaner
 {
-    border-style: solid;
-    border: thick ;
+    border-style: none;
+    border: none ;
     margin-bottom: 50px;
     border-width: 10px;
+    background-color: #ececec;
 }
 .story-body
 {
@@ -49,6 +79,8 @@ body
     max-height: 40px;
     opacity: 0.3;
     margin: 2%;
+    width: 80%; 
+    height: 80%
 }
 .s_img:hover
 {
@@ -59,7 +91,7 @@ body
 }
 
 li.list-group-item{ margin: 10px; border: none; }
-li.list-group-item-heading{color: #2b669a}
+li.list-group-item-heading{color: #6d6d6d}
 button.col-md-6:hover{text-decoration: underline}
 img.img-circle{ box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,rgba(0,0,0,0.117647) 0px 1px 4px}
 
@@ -96,18 +128,18 @@ img.img-circle{ box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,rgba(0,0,0,0.117647
     margin: 0 auto;
   }
   
-  .sidenav a 
+  .sidenav
   {
     padding: 6px 6px 6px 32px;
     font-size: inherit;
-    color:#2b669a;
+    color:#6d6d6d;
     display: block;
   }
   
-  .sidenav  a:hover a:active 
+  .sidenav  a:hover a:active  a:visited
   {
     text-decoration: underline;
-    background-color: #2b669a
+    background-color: #6d6d6d;
   }
   
   .main 
@@ -141,3 +173,27 @@ img.img-circle{ box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px,rgba(0,0,0,0.117647
     display: flex;
     align-items: center;
   }
+
+  .section
+  {
+    color: #6b6b6b;
+    background-color: #ececec;
+  }
+
+  .horizontal-list li{
+    display: inline;
+    background-color: #ececec;
+  }
+  .project-section
+  {
+
+  }
+  .project-title
+  {
+
+  }
+  .project-tech-stack
+  {
+
+  }
+  
