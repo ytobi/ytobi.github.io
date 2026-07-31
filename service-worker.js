@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ac2e28ae379632422988db62cba4a258.js"
+  "/precache-manifest.e59f898d510c84ec50751217fef06f52.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "tobi"});
